@@ -1,0 +1,33 @@
+[project]
+name = "proof-of-attestation"
+description = "A simple contract for on-chain attestations to solve verification problems."
+authors = []
+telemetry = true
+cache_dir = ".cache"
+requirements = []
+
+[contracts.proof-of-attestation]
+path = "contracts/proof-of-attestation.clar"
+depends_on = []
+
+[repl]
+clarity_version = 2
+eval_file = ""
+
+[sessions.testnet]
+path = "sessions/testnet.json"
+
+[sessions.mainnet]
+path = "sessions/mainnet.json"
+
+[accounts.deployer]
+mnemonic = "fetch outside black test wash cover just actual execute nice silent sword"
+balance = 100000000
+
+[accounts.authority]
+mnemonic = "sound idle panel team coast excite retire keen fall ill bike slab"
+balance = 100000000
+
+[accounts.user_a]
+mnemonic = "year argue adapt milk ancle logic trust canyon illegal scare tragic salmon"
+balance = 100000000
